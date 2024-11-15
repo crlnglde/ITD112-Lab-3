@@ -1,0 +1,40 @@
+.bar-chart-container {
+    width: 550px;
+    max-width: 800px; /* Adjust the max-width as needed */
+    
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+.bar-chart-container h2{
+    text-align: center;
+    font-size: medium;
+}
+  
+  .bar-chart-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .bar-chart-controls div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bar-chart-controls select {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+  }
+  
+  .bar-chart-controls label {
+    font-size: 12px;
+  }
+  

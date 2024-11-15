@@ -1,0 +1,31 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 0;
+  }
+  
+  .card1,
+  .card2 {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .card1 h2,
+  .card2 h2 {
+    font-size: 1.5rem;
+    color: #07325E; /* Dark blue for titles */
+    margin-bottom: 10px;
+  }
+  
+  .card1 p,
+  .card2 p {
+    font-size: 2rem;
+    color: #1976D2; /* Blue for numbers */
+    font-weight: bold;
+  }
+  

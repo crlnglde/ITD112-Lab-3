@@ -1,0 +1,53 @@
+/* Container for the map to center it vertically and horizontally */
+.choropleth-map-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the map */
+  align-items: center; /* Vertically center the map */
+  height: 90vh; /* Full viewport height */
+  width: 100%; /* Full width */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+/* Style for the map container itself */
+.map-container {
+  width: 90%; 
+  max-width: 500px; 
+  height: 100vh; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  position: relative; /* Allow layering control */
+  z-index: 1; /* Default stacking for the map */
+}
+
+/* Optional: Customize the Leaflet map's appearance (rounded corners) */
+.leaflet-container {
+  border-radius: 8px; /* Rounded corners on the map */
+}
+
+/* Styling the map's legend (to show color scale) */
+.info.legend {
+  background-color: #ffffffa8;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for better visibility */
+  font-size: 11px; /* Adjust the font size for the legend */
+  z-index: 9999; /* Ensure it's above the map */
+  
+}
+
+/* Style each item inside the legend (color indicator and text) */
+.info.legend i {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  display: inline-block;
+  border-radius: 2px; /* Slight rounding of color indicators */
+}
+
+/* Tooltip style */
+.custom-tooltip {
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 5px;
+  border-radius: 4px;
+}

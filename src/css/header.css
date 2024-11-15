@@ -1,0 +1,32 @@
+/* header.css */
+.app-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  text-align: center;
+  position: fixed; /* Makes the header fixed */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Fade and slide effect */
+}
+
+.app-header.hidden {
+  transform: translateY(-100%); /* Slides the header up */
+  opacity: 0; /* Fades the header out */
+}
+
+.app-header.visible {
+  transform: translateY(0); /* Slides the header back down */
+  opacity: 1; /* Fades the header in */
+}
+
+.logo {
+  width: 220px;
+  height: auto;
+  margin-right: 15px;
+}

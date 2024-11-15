@@ -1,0 +1,35 @@
+.charts-row {
+    display: flex; /* Use Flexbox to align items horizontally */
+    justify-content: space-around; /* Space the charts evenly */
+    align-items: center; /* Vertically center the charts */
+    margin: 20px 0; /* Add some margin to the row */
+  }
+  
+  .chart-item1 {
+    margin-right: 10%;
+    padding: 10px; /* Add padding around each chart */
+    max-width: 50%; 
+  }
+
+  
+  .chart-item1 canvas, .chart-item svg {
+    width: 100% !important; /* Ensure charts take up full width of their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .chart-item2 {
+    margin-right: 10%;
+    padding: 10px; /* Add padding around each chart */
+    max-width: 50%; /* Limit the chart width to 50% of the row */
+  }
+  
+  .chart-item2 canvas, .chart-item svg {
+    width: 100% !important; /* Ensure charts take up full width of their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .chart-item3 {
+    padding: 10px; /* Add padding around each chart */
+    max-width: 50%; /* Limit the chart width to 50% of the row */
+  }
+  

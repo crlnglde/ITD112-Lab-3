@@ -1,0 +1,25 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping to the next line if not enough space */
+    padding: 20px;
+  }
+  
+  .dashboard-item1 {
+    flex: 1;
+    margin-top: 100px;
+    margin-left: 32px;
+    min-width: 200px; /* Minimum width for each item */
+    max-width: 100%; /* Max width for each item to fit in a row */
+    box-sizing: border-box; /* Includes padding in the width */
+  }
+
+  .dashboard-item2 {
+    flex: 1;
+    margin-top: 100px;
+    margin-right: -20px;
+    min-width: 1000px; /* Minimum width for each item */
+    max-width: 50%; /* Max width for each item to fit in a row */
+    box-sizing: border-box; /* Includes padding in the width */
+  }
+  
